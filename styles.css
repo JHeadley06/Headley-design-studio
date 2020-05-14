@@ -2,6 +2,10 @@ body {
     font-family: 'Poppins', sans-serif !important;
 }
 
+section {
+    padding: 25px;
+}
+
 #navbar {
     background-color: black;
     height: 100px;
@@ -16,19 +20,101 @@ body {
     height: 100vh;
     background-color: grey;
     color: white;
-    padding: 25px;
+
 }
 
 #intro {
     margin-top: 200px;
-    font-weight: 600;
-}
-
-#portfolio {
-    padding: 25px;
+    font-weight: 800;
 }
 
 h2.heading {
-    font-weight: 600;
+    font-weight: 800;
     font-size: 25px;
+}
+
+a.work-example {
+    display: inline-block;
+    background-color: black;
+    height: 160px;
+    width: 160px;
+    margin: 0 10px 10px 0;
+}
+
+#about {
+    background-color: grey;
+    color: white;
+}
+
+.profile-pic {
+    height: 125px;
+    width: 125px;
+    background-image: url(Assets/profile-pic.jpg);
+    background-size: contain;
+    display: inline-block;
+}
+
+p.about-me {
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+    bottom: 20px;
+}
+
+.know-more {
+    margin: auto;
+    display: block;
+    padding: 10px;
+    border-radius: 22px;
+    width: 200px;
+    border: none;
+    box-shadow: 3px 3px 7px #555;
+    background-color: white;
+    color: #555;
+    font-weight: 600;
+}
+
+h4.contact-info {
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+input.input-sm {
+    height: 44px;
+    width: 200px;
+    border-radius: 22px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    box-shadow: 3px 3px 7px #555;
+    color: #555;
+    display: block;
+}
+
+#message {
+    height: 350px;
+    width: 350px;
+    border-radius: 22px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    box-shadow: 3px 3px 7px #555;
+    color: #555;
+    resize: none;
+    display: block;
+}
+
+footer {
+    height: 50px;
+    background-color: black;
+    padding: 15px 25px;
+    text-align: right;
+}
+
+.logo-small {
+    height: 20px;
+    display: inline-block;
 }
