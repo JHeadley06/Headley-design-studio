@@ -4,11 +4,16 @@ body {
 
 section {
     padding: 25px;
+    position: relative;
+    top: 100px;
 }
 
 #navbar {
     background-color: black;
     height: 100px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
 }
 
 .logo {
@@ -18,12 +23,21 @@ section {
 
 #landing {
     height: 100vh;
-    background-color: grey;
+    background-color: #aaa;
     color: white;
+}
 
+#intro::before {
+    height: 10px;
+    width: 50px;
+    background-color: rgb(72, 172, 192);
+    position: absolute;
+    content: "";
+    top: -25px;
 }
 
 #intro {
+    position: relative;
     margin-top: 200px;
     font-weight: 800;
 }
@@ -34,11 +48,41 @@ h2.heading {
 }
 
 a.work-example {
-    display: inline-block;
+    display: inline-flex;
     background-color: black;
     height: 160px;
     width: 160px;
     margin: 0 10px 10px 0;
+}
+
+#explore {
+    background-image: url(Assets/explore/Explore-logo.jpg);
+    background-size: 300px;
+    background-position: center;
+}
+
+#scoops {
+    background-image: url(Assets/scoops/Scoops-logo-white.jpg);
+    background-size: 300px;
+    background-position: center;
+}
+
+#exhibit {
+    background-image: url(Assets/exhibit/Cover.jpg);
+    background-size: 200px;
+    background-position: center;
+}
+
+#handle {
+    background-image: url(Assets/handle/Cover.jpg);
+    background-size: 200px;
+    background-position: center;
+}
+
+#cute-scoop {
+    background-image: url(Assets/cute-scoop/Cover.jpg);
+    background-size: 200px;
+    background-position: center;
 }
 
 #about {
@@ -112,9 +156,83 @@ footer {
     background-color: black;
     padding: 15px 25px;
     text-align: right;
+    position: relative;
+    top: 100px;
 }
 
 .logo-small {
     height: 20px;
     display: inline-block;
+}
+
+/* Responsive Rules */
+
+@media screen and (min-width: 700px) {
+
+    #landing {
+        width: 400px;
+        background-color: black;
+        float: left;
+    }
+
+    #portfolio {
+        display: inline-block;
+        width: 1000px;
+        height: 100vh;
+    }
+
+    a.work-example {
+        width: 300px;
+        height: 300px;
+    }
+
+    #about {
+        display: none;
+    }
+
+    #contact {
+        display: none;
+    }
+
+    #explore {
+        background-size: 600px;
+    }
+    
+    #scoops {
+        background-size: 600px;
+    }
+    
+    #exhibit {
+        background-size: 400px;
+    }
+    
+    #handle {
+        background-size: 400px;
+    }
+    
+    #cute-scoop {
+        background-size: 400px;
+    }
+
+}
+
+@media screen and (min-width: 1400px) {
+
+    #portfolio {
+        width: 1500px;
+    }
+
+    a.work-example {
+        width: 400px;
+        height: 400px;
+    }
+
+    h2.heading {
+        display: none;
+    }
+    
+    #portfolio p {
+        display: none;
+    }
+
 }
