@@ -23,7 +23,7 @@ section {
 
 #landing {
     height: 100vh;
-    background-color: #aaa;
+    background-color: black;
     color: white;
 }
 
@@ -53,36 +53,57 @@ a.work-example {
     height: 160px;
     width: 160px;
     margin: 0 10px 10px 0;
+    transition: .5s;
+    background-size: 200px;
+    background-position: center;
 }
 
 #explore {
-    background-image: url(Assets/explore/Explore-logo.jpg);
-    background-size: 300px;
-    background-position: center;
+    background-image: url(Assets/explore/Cover.jpg);
+}
+
+#explore:hover {
+    background-image: url(Assets/explore/Hover.jpg);
 }
 
 #scoops {
-    background-image: url(Assets/scoops/Scoops-logo-white.jpg);
-    background-size: 300px;
-    background-position: center;
+    background-image: url(Assets/scoops/Cover.jpg);
+}
+
+#scoops:hover {
+    background-image: url(Assets/scoops/Hover.jpg);
 }
 
 #exhibit {
     background-image: url(Assets/exhibit/Cover.jpg);
-    background-size: 200px;
-    background-position: center;
+}
+
+#exhibit:hover {
+    background-image: url(Assets/exhibit/Hover.jpg);
 }
 
 #handle {
     background-image: url(Assets/handle/Cover.jpg);
-    background-size: 200px;
-    background-position: center;
+}
+
+#handle:hover {
+    background-image: url(Assets/handle/Hover.jpg);
 }
 
 #cute-scoop {
     background-image: url(Assets/cute-scoop/Cover.jpg);
-    background-size: 200px;
-    background-position: center;
+}
+
+#cute-scoop:hover {
+    background-image: url(Assets/cute-scoop/Hover.jpg);
+}
+
+#visualisations {
+    background-image: url(Assets/visualisations/Cover.jpg);
+}
+
+#visualisations:hover {
+    background-image: url(Assets/visualisations/Hover.jpg);
 }
 
 #about {
@@ -179,6 +200,7 @@ footer {
         display: inline-block;
         width: 1000px;
         height: 100vh;
+        padding: 15px;
     }
 
     a.work-example {
@@ -195,11 +217,11 @@ footer {
     }
 
     #explore {
-        background-size: 600px;
+        background-size: 400px;
     }
     
     #scoops {
-        background-size: 600px;
+        background-size: 400px;
     }
     
     #exhibit {
@@ -211,6 +233,10 @@ footer {
     }
     
     #cute-scoop {
+        background-size: 400px;
+    }
+
+    #visualisations {
         background-size: 400px;
     }
 
