@@ -58,6 +58,10 @@ a.work-example {
     background-position: center;
 }
 
+a.work-example:hover {
+    box-shadow: 0 0 15px #555;
+}
+
 #explore {
     background-image: url(Assets/explore/Cover.jpg);
 }
