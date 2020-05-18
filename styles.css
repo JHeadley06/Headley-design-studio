@@ -14,11 +14,19 @@ section {
     position: fixed;
     width: 100%;
     z-index: 2;
+    text-align: center;
 }
 
 .logo {
     height: 50px;
     margin: 25px 25px;
+    float: left;
+}
+
+#menu {
+    width: 50px;
+    float: right;
+    margin: 25px;
 }
 
 #landing {
@@ -188,6 +196,26 @@ footer {
 .logo-small {
     height: 20px;
     display: inline-block;
+}
+
+#project-work {
+    text-align: center;
+}
+
+.project-title {
+    color: black;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+
+.work {
+    width: 1400px;
+    margin: 10px auto 15px;
+}
+
+.thanks {
+    font-weight: 600;
+    margin-top: 15px;
 }
 
 /* Responsive Rules */
