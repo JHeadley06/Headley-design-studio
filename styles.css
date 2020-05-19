@@ -1,5 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif !important;
+    padding: 0;
+    margin: 0;
 }
 
 section {
@@ -14,19 +16,71 @@ section {
     position: fixed;
     width: 100%;
     z-index: 2;
-    text-align: center;
 }
 
 .logo {
     height: 50px;
     margin: 25px 25px;
-    float: left;
+    display: inline-block;
 }
 
-#menu {
-    width: 50px;
+.menu {
     float: right;
-    margin: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 25px
+}
+
+#menu-icon {
+    height: 50px;
+}
+
+#menu-icon.active {
+    display: none;
+}
+
+#x-icon {
+    height: 50px;
+    display: none;
+}
+
+#x-icon.active {
+    display: block;
+}
+
+#sub-menu {
+    width: 300px;
+    height: 900px;
+    position: absolute;
+    float: right;
+    background-color: black;
+    text-align: left;
+    right: 0;
+    display: none;
+    list-style: none;
+    font-size: 25px;
+    color: white;
+    padding: 0;
+    z-index: 1;
+}
+
+#sub-menu.active {
+    display: block;
+}
+
+a.menu-li {
+    margin: 25px 0;
+    padding: 0 25px;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+a.menu-li:hover {
+    background-color: white;
+    color: black;
+    font-weight: 900;
+    text-decoration: none;
 }
 
 #landing {
@@ -187,15 +241,17 @@ input.input-sm {
 footer {
     height: 50px;
     background-color: black;
-    padding: 15px 25px;
     text-align: right;
     position: relative;
     top: 100px;
+    align-content: center;
+    z-index: 2;
 }
 
 .logo-small {
     height: 20px;
     display: inline-block;
+    margin: 15px 25px 0;
 }
 
 #project-work {
@@ -276,8 +332,13 @@ footer {
 
 @media screen and (min-width: 1400px) {
 
+    #landing {
+        height: 800px;
+    }
+
     #portfolio {
-        width: 1500px;
+        width: 1300px;
+        height: 800px;
     }
 
     a.work-example {
