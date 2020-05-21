@@ -50,7 +50,7 @@ section {
 
 #sub-menu {
     width: 100px;
-    height: calc(100vh - 160px);
+    height: 100vh;
     position: absolute;
     float: right;
     background-color: black;
@@ -190,6 +190,10 @@ a.work-example:hover {
 #about {
     background-color: grey;
     color: white;
+}
+
+#about-page {
+    text-align: center;
 }
 
 .profile-pic {
@@ -383,6 +387,18 @@ footer {
     
     #portfolio p {
         display: none;
+    }
+
+    .profile-pic {
+        width: 250px;
+        height: 250px;
+        display: block;
+        margin: 0 auto 25px;
+    }
+
+    .about-me {
+        display: block;
+        margin-top: 25px;
     }
 
 }
