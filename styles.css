@@ -236,17 +236,20 @@ h4.contact-info {
 
 input.input-sm {
     height: 44px;
-    width: 200px;
+    width: 350px;
     border-radius: 22px;
     margin-bottom: 20px;
     padding: 10px;
     font-size: 15px;
-    border: none;
-    box-shadow: 3px 3px 7px #555;
+    border: 1px solid rgb(72, 172, 192);
     color: #555;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+input.input-sm:focus {
+    box-shadow: 5px 5px 10px rgb(72, 172, 192);
 }
 
 #message {
@@ -257,12 +260,26 @@ input.input-sm {
     padding: 10px;
     font-size: 15px;
     border: none;
-    box-shadow: 3px 3px 7px #555;
+    border: 1px solid rgb(72, 172, 192);
     color: #555;
     resize: none;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+#message:focus {
+    box-shadow: 5px 5px 10px rgb(72, 172, 192);
+}
+
+.contact-btn {
+    border: none;
+    background-color: rgb(72, 172, 192);
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-weight: 900;
+    border-radius: 25px;
 }
 
 footer {
