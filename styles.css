@@ -49,23 +49,19 @@ section {
 }
 
 #sub-menu {
-    width: 300px;
+    width: 100px;
     height: 900px;
     position: absolute;
     float: right;
     background-color: black;
     text-align: left;
     right: 0;
-    display: none;
     list-style: none;
     font-size: 25px;
     color: white;
     padding: 0;
     z-index: 1;
-}
-
-#sub-menu.active {
-    display: block;
+    transition: all 0.3s ease-in-out;
 }
 
 a.menu-li {
@@ -74,12 +70,21 @@ a.menu-li {
     display: block;
     color: white;
     text-decoration: none;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    z-index: 1000;
 }
 
-a.menu-li:hover {
-    text-decoration: line-through;
-    text-decoration-color: rgb(72, 172, 192);
-    text-decoration-style: solid;
+a.menu-li:hover::before {
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 50px;
+    background-color: rgb(72, 172, 192);
+    top: 22px;
+    z-index: -1;
 }
 
 #landing {
