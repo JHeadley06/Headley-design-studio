@@ -130,6 +130,21 @@ h2.heading {
     justify-content: space-between;
 }
 
+#portfolio-page {
+    width: 1700px;
+}
+
+#portfolio-page #work-ctn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+#portfolio-page div a {
+    width: 400px;
+    height: 400px;
+}
+
 a.work-example {
     display: inline-flex;
     background-color: black;
