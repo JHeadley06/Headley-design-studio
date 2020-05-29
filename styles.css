@@ -161,51 +161,59 @@ a.work-example:hover {
 }
 
 #explore {
-    background-image: url(Assets/explore/Cover.jpg);
+    background-image: url(./Assets/explore/Cover.jpg);
 }
 
 #explore:hover {
-    background-image: url(Assets/explore/Hover.jpg);
+    background-image: url(./Assets/explore/Hover.jpg);
 }
 
 #scoops {
-    background-image: url(Assets/scoops/Cover.jpg);
+    background-image: url(./Assets/scoops/Cover.jpg);
 }
 
 #scoops:hover {
-    background-image: url(Assets/scoops/Hover.jpg);
+    background-image: url(./Assets/scoops/Hover.jpg);
+}
+
+#seed {
+    background-image: url(./Assets/seed/Cover.jpg);
+}
+
+#seed:hover {
+    background-image: url(./Assets/seed/Hover.jpg);
 }
 
 #exhibit {
-    background-image: url(Assets/exhibit/Cover.jpg);
+    background-image: url(./Assets/exhibit/Cover.jpg);
 }
 
 #exhibit:hover {
-    background-image: url(Assets/exhibit/Hover.jpg);
+    background-image: url(./Assets/exhibit/Hover.jpg);
 }
 
 #handle {
-    background-image: url(Assets/handle/Cover.jpg);
+    background-image: url(./Assets/handle/Cover.jpg);
 }
 
 #handle:hover {
-    background-image: url(Assets/handle/Hover.jpg);
+    background-image: url(./Assets/handle/Hover.jpg);
 }
 
 #cute-scoop {
-    background-image: url(Assets/cute-scoop/Cover.jpg);
+    background-image: url(./Assets/cute-scoop/Cover.jpg);
 }
 
 #cute-scoop:hover {
-    background-image: url(Assets/cute-scoop/Hover.jpg);
+    background-image: url(./Assets/cute-scoop/Hover.jpg);
 }
 
 #visualisations {
-    background-image: url(Assets/visualisations/Cover.jpg);
+    background-image: url(./Assets/visualisations/Cover.jpg);
 }
 
 #visualisations:hover {
-    background-image: url(Assets/visualisations/Hover.jpg);
+    background-image: url(./Assets/visualisations/Hover.jpg);
 }
 
 #about {
@@ -384,6 +392,10 @@ footer {
     }
     
     #scoops {
+        background-size: 400px;
+    }
+
+    #seed {
         background-size: 400px;
     }
     
