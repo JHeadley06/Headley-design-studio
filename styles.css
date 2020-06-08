@@ -176,6 +176,14 @@ a.work-example:hover {
     background-image: url(./Assets/scoops/Hover.jpg);
 }
 
+#visitNam {
+    background-image: url(./Assets/visitNam/Cover.jpg);
+}
+
+#visitNam:hover {
+    background-image: url(./Assets/visitNam/Hover.jpg);
+}
+
 #seed {
     background-image: url(./Assets/seed/Cover.jpg);
 }
@@ -392,6 +400,10 @@ footer {
     }
     
     #scoops {
+        background-size: 400px;
+    }
+
+    #visitNam {
         background-size: 400px;
     }
 
