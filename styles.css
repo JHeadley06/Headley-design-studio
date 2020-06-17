@@ -55,7 +55,7 @@ section {
 }
 
 #sub-menu {
-    width: 100px;
+    width: 0px;
     height: 100vh;
     position: absolute;
     float: right;

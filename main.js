@@ -29,7 +29,7 @@ function openMenu() {
 
         getXIcon.classList.remove("active");
         getMenuIcon.classList.remove("active");
-        getSidebar.style.width = "100px";
+        getSidebar.style.width = "0px";
         
         toggleNavStatus = false;
     }
