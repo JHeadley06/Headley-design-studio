@@ -131,7 +131,7 @@ h2.heading {
 }
 
 #portfolio-page {
-    width: 1700px;
+    width: 300px;
 }
 
 #portfolio-page #work-ctn {
@@ -141,8 +141,8 @@ h2.heading {
 }
 
 #portfolio-page div a {
-    width: 400px;
-    height: 400px;
+    width: 130px;
+    height: 130px;
 }
 
 a.work-example {
@@ -227,6 +227,7 @@ a.work-example:hover {
 #about {
     background-color: grey;
     color: white;
+    text-align: center;
 }
 
 #about-page {
@@ -473,6 +474,15 @@ footer {
     .about-me {
         display: block;
         margin-top: 25px;
+    }
+
+    #portfolio-page div a {
+        width: 400px;
+        height: 400px;
+    }
+
+    #portfolio-page {
+        width: 1700px;
     }
 
 }
