@@ -460,6 +460,16 @@ footer {
         margin: 0 auto 25px;
     }
 
+    .profile-pic::after {
+        content: "";
+        position: absolute;
+        height: 10px;
+        width: 100px;
+        background-color: rgb(72, 172, 192);
+        transform: translateX(-50px);
+        top: 300px;
+    }
+
     .about-me {
         display: block;
         margin-top: 25px;
