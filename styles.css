@@ -208,12 +208,12 @@ a.work-example:hover {
     background-image: url(./Assets/handle/Hover.jpg);
 }
 
-#cute-scoop {
-    background-image: url(./Assets/cute-scoop/Cover.jpg);
+#figureEight {
+    background-image: url(./Assets/figureEight/Cover.jpg);
 }
 
-#cute-scoop:hover {
-    background-image: url(./Assets/cute-scoop/Hover.jpg);
+#figureEight:hover {
+    background-image: url(./Assets/figureEight/Hover.jpg);
 }
 
 #visualisations {
@@ -420,7 +420,7 @@ footer {
         background-size: 400px;
     }
     
-    #cute-scoop {
+    #figureEight {
         background-size: 400px;
     }
 
@@ -483,6 +483,7 @@ footer {
 
     #portfolio-page {
         width: 1700px;
+        margin: 0 auto;
     }
 
 }
