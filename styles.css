@@ -324,25 +324,54 @@ input.input-sm:focus {
 
 footer {
     height: 50px;
+    width: 100vw;
     background-color: black;
     text-align: right;
     position: relative;
     top: 100px;
-    text-align: center;
     z-index: 2;
-    align-content: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media {
+    list-style: none;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.social-media-icon {
+    background-size: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 25px;
+    width: 25px;
+    margin: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    z-index: 10;
+}
+
+#facebook {
+    background-image: url(./Assets/Logo/FB\ Logo\ Circular\ -\ white.png);
+}
+
+#instagram {
+    background-image: url(./Assets/Logo/Instagram\ Logo\ Circular\ -\ white.png);
+}
+
+#linkedin {
+    background-image: url(./Assets/Logo/LinkedIn\ Logo\ Circular\ -\ white.png);
 }
 
 .logo-small {
     height: 20px;
-    margin: 15px 25px 0;
-    float: right;
+    margin: 15px 35px 0;
 }
 
 .copy {
     color: white;
     font-size: 10px;
-    display: inline-block;
     margin-top: 18px;
 }
 
