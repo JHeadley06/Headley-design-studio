@@ -322,6 +322,11 @@ input.input-sm:focus {
     opacity: .75;
 }
 
+#paypal-btn {
+    margin: 50px;
+    float: left;
+}
+
 footer {
     height: 50px;
     width: 100vw;
