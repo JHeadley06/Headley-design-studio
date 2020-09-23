@@ -224,6 +224,14 @@ a.work-example:hover {
     background-image: url(./Assets/visualisations/Hover.jpg);
 }
 
+#technical {
+    background-image: url(./Assets/technical/Cover.jpg);
+}
+
+#technical:hover {
+    background-image: url(./Assets/technical/Hover.jpg);
+}
+
 #about {
     background-color: grey;
     color: white;
