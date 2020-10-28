@@ -160,6 +160,14 @@ a.work-example:hover {
     box-shadow: 0 0 15px #555;
 }
 
+#easterlow {
+    background-image: url(./Assets/easterlow/Cover.jpg);
+}
+
+#easterlow:hover {
+    background-image: url(./Assets/easterlow/Hover.jpg);
+}
+
 #explore {
     background-image: url(./Assets/explore/Cover.jpg);
 }
@@ -438,6 +446,10 @@ footer {
         display: none;
     }
 
+    #easterlow {
+        background-size: 400px;
+    }
+
     #explore {
         background-size: 400px;
     }
@@ -467,6 +479,10 @@ footer {
     }
 
     #visualisations {
+        background-size: 400px;
+    }
+
+    #technical {
         background-size: 400px;
     }
 
